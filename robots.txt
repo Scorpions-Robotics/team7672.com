@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /assets/
-Allow: *
-
-Sitemap: https://team7672.com/sitemap.xml
