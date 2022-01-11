@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<meta https-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title> Scorpions Robotics </title>
+	<script src="jquery/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="jquery/main.js"></script>
+	<script type="text/javascript" src="jquery/favicon.js"></script>
+	<script>
+		$(window).on("load", function () {
+			$(".loader-wrapper").fadeOut("fast");
+		});
+	</script>
+</head>
+
+<body style="scroll-snap-type: none;">
+	<div onClick="back2()" class="backbutton">
+		<img alt="" src="images/goback.png" />
+	</div>
+	<div id="sidebar">
+		<div clas<strong></strong>s="toggle-btn" onclick="toggleSidebar()">
+			<div class="icon">
+				<div class="hamburger"></div>
+			</div>
+		</div>
+		<ul>
+			<a href="index.html">
+				<li><img style="height: 20px; padding-right: 6px;" alt="" src="images/ico_home.png" />Home</li>
+			</a>
+			<a href="aboutus.html">
+				<li><img style="height: 20px; padding-right: 6px;" alt="" src="images/ico_aboutus.png" />About Us</li>
+			</a>
+			<li id="products" onClick="productMenu()">
+				<img style="height: 20px; padding-right: 6px;" alt="" src="images/ico_products.png" />Products
+			</li>
+
+			<div id="industrial" class="sidebarsub">
+				<li onClick="industrialMenu()" style="padding-left: 15px;">Industrial</li>
+				<a href="products/ptk1000.html">
+					<li id="ptk1000" class="sidebarsub1" style="padding-left: 30px;">PTK<strong>1000</strong></li>
+				</a>
+				<a href="products/ptk3000.html">
+					<li id="ptk3000" class="sidebarsub1" style="padding-left: 30px;">PTK<strong>3000</strong></li>
+				</a>
+			</div>
+			<div id="agricultural" class="sidebarsub">
+				<li onClick="agriMenu()" style="padding-left: 15px;">Agricultural</li>
+				<a href="products/uta.html">
+					<li id="uta" class="sidebarsub2" style="padding-left: 30px;"><strong>UTA</strong></li>
+				</a>
+			</div>
+			<a onClick="window.location.href = '#sec_con'">
+				<li><img style="height: 20px; padding-right: 6px;" alt="" src="images/ico_contact.png" />Contact</li>
+			</a>
+			<div class="menu_social">
+				<a target="_blank" href="https://twitter.com/scorpions7672"><img title="Twitter" alt=""
+						src="images/logo_twitter.png" /></a>
+				<a target="_blank" href="https://www.facebook.com/scorpions7672/"><img title="Facebook" alt=""
+						src="images/logo_facebook.png" /></a>
+				<a target="_blank" href="https://www.instagram.com/scorpions7672/"><img title="Instagram" alt=""
+						src="images/logo_instagram.png" /></a>
+				<a target="_blank" href="https://www.youtube.com/channel/UCLsK3acedtyaD6dABW39g2Q"><img title="Youtube"
+						alt="" src="images/logo_youtube.png" /></a>
+			</div>
+		</ul>
+	</div>
+
+	<section class="aboutus">
+		<div class="au-header">
+			<h3>OUR PROJECTS</h3>
+		</div>
+		<div class="au-description">
+			<p>
+				Biz, Scorpions 7672 olarak Antalya Bahçeşehir Fen ve Teknoloji Lisesi öğrencilerinden oluşan bir lise
+				robotik takımıyız. Takımımızın kurulduğu 2018’den bu yana, dünyanın en büyük ve en prestijli robotik
+				yarışmalarından olan FIRST Robotics Competition (FRC) yarışmasında ülkemizi en iyi şekilde temsil etmek
+				için elimizden geleni yapıyoruz.
+
+				Highest Rookie Seed, Rookie Inspiration Award, ödüllerini kazandık.
+				Endüstriyel seviyede FRC robotları tasarlamaya ek olarak, çevremizi korumak için bir su altı robotu
+				geliştirdik ve robotumuzla Akdeniz’deki kirliliği gözlemledik. Aldığımız görüntüleri binlerce insana
+				ulaştırarak elimizden geldiğince çevre farkındalığı yaratmaya çalıştık. Videomuza ulaşmak için
+				tıklayınız. Ardından, robotu kontrol eden modüler bir kumanda ve robottan gelen görüntüleri
+				izlemeye/kaydetmeye yarayan bir masaüstü uygulama geliştirdik.
+
+				Şimdiki hedefimiz ise FRC kapsamında tasarlayabileceğimiz en iyi robotu inşa edebilmek. Bunun için
+				mühendislik, yazılım ve takım çalışması becerilerimizi sürekli geliştirmeye büyük önem veriyoruz, ne var
+				ki bütçemiz gerekli malzemeleri edinmek için yeterli olmadığında becerilerimiz ve yeteneklerimizi
+				kullanma imkanımız dahi olmuyor. FRC yarışmasındaki güvenlik nedenlerinden dolayı sadece Amerika’dan
+				ithal edilen belli elektronik parçaların kullanımına izin verilmesi sebebiyle işimiz daha da zorlaşıyor.
+				Bu yüzden, sizden bize destek olmanızı istiyor ve desteklerinizin boşa gitmeyeceğine söz veriyoruz.
+
+
+
+
+			</p>
+		</div>
+
+
+		<div class="au-content">
+			<li>July 2017</li>
+			<li>Research and Development of Agricultural Robot</li>
+			<p> 5 friends with different engineering backgrounds come together to design a lightweight autonomous
+				farming robot to create a sustainable solution for mechanical weeding in agriculture.</p>
+		</div>
+
+		<div class="au-content-r">
+			<li>October 2017</li>
+			<li>ITU Cekirdek Acceptance and Entrepreneurship Training</li>
+			<p> With our Autonomous Agricultural Robot initiative, we got accepted to Turkey's most successful
+				incubation centre and complete their entrepreneurship training program.</p>
+		</div>
+
+		<div class="au-content">
+			<li>February 2018</li>
+			<li>Tubitak BIGG and Company Establishment</li>
+			<p> In February 2018, our first application to Tubitak has concluded and we are awarded with financial
+				support thanks to TUBITAK BIGG program. Then, we established our company under the name Patika Robotik
+				Arge ve Mühendislik San.Tic.A.Ş.</p>
+		</div>
+
+		<div class="au-content-r">
+			<li>May 2018</li>
+			<li>Research and Development of Autonomous Mobile Robots</li>
+			<p> While working on our autonomous agricultural robot, we were also promoting our company to the industry
+				and trying to establish relationships with companies. As a result of these efforts, we received our
+				first order and started to develop 2 different autonomous load-carrier platforms under this order.</p>
+		</div>
+
+
+		<div class="au-content">
+			<li>October 2018</li>
+			<li>First Prototype Production of Agricultural Robot</li>
+			<p> After weeks of hard work at our workshop, we have completed the production and assembly of our first
+				autonomous agricultural robot. We have prepared a series of test environments to measure the adequacy of
+				our robot's mechanical and electronic hardware in harsh outdoor conditions.</p>
+		</div>
+
+		<div class="au-content-r">
+			<li>November 2018</li>
+			<li>BIG BANG</li>
+			<p> In November 2019, after passing through eliminations, we succeeded in reaching the semi-finals in the
+				Big Bang competition organized by ITU Cekirdek and exhibited our first product in the foyer area.</p>
+		</div>
+
+		<div class="au-content">
+			<li>February 2019</li>
+			<li>Prototype Production of Autonomous Mobile Robot</li>
+			<p> As a result of countless supplier interviews and numerous revised designs, we completed the production
+				and assembly of our first Autonomous Mobile Robot within 8 months. </p>
+		</div>
+
+		<div class="au-content-r">
+			<li>November 2019</li>
+			<li>Turkey Connected and Autonomous Vehicles Cluster</li>
+			<p> Patika Robotics is proud to be member of Turkey Connected and Autonomous Vehicles - Cluster and provide
+				solutions for autonomous mobility and electric vehicles.</p>
+		</div>
+
+
+		<div class="au-content">
+			<li>December 2019</li>
+			<li>Production of PTK1000 </li>
+			<p> In December 2019, we finished our first commercial Autonomous Mobile Robot that can carry up to 1000kg
+				loads. </p>
+		</div>
+
+		<div class="au-content-r">
+			<li>January 2020</li>
+			<li>Production of PTK3000 </li>
+			<p> After 2 months from finishing PTK1000, we commercialized our second AMR, which has capability of
+				carrying 3000 kg loads. </p>
+		</div>
+
+
+	</section>
+	<!-- Contact Us-->
+	<section id="sec_con" class="section4">
+		<div class="partners">
+			<li><a href="https://itucekirdek.com/" target="_blank"><img title="İTÜ Çekirdek" class="partnerlogo" alt=""
+						src="images/logo_cekirdek.png" /></a>
+				<a href="https://www.ariteknokent.com.tr/tr" target="_blank"><img title="İTÜ Teknokent"
+						class="partnerlogo" alt="" src="images/logo_teknokent.png" /></a>
+				<a href="https://bigg.tubitak.gov.tr/" target="_blank"><img title="Bireysel Genç Girişim"
+						class="partnerlogo" alt="" src="images/logo_bigg.png" /></a>
+				<a href="https://www.tosb.com.tr/" target="_blank"><img title="TOSB" class="partnerlogo" alt=""
+						src="images/logo_tosb.png" /></a>
+			</li>
+		</div>
+		<div class="section4container">
+
+			<div class="googlemaps">
+				<iframe title="headquarters" src="https://snazzymaps.com/embed/356263" width="50%" height="70%"
+					style="border:none;"></iframe>
+			</div>
+			<div class="contactinfo">
+				<div class="contactlogos">
+					<li><img alt="" src="images/logo_phone.png" /></li>
+					<li><img alt="" src="images/logo_mail.png" /></li>
+					<li><img alt="" src="images/logo_address.png" /></li>
+					<li><img alt="" src="images/logo_social.png" /></li>
+
+				</div>
+
+				<div class="contactline">
+				</div>
+
+				<div class="contacttext">
+					<div class="contactdiv">
+						<h3><strong>PHONE</strong></h3>
+						<li>+90 546 485 2005</li>
+					</div>
+					<div class="contactdiv">
+						<h3><strong>E-MAIL</strong></h3>
+						<li><a href="mailto:scorpions7672@gmail.com" target="_top">scorpions7672@gmail.com</a></li>
+					</div>
+					<div class="contactdiv">
+						<h3><strong>ADDRESS</strong></h3>
+						<li style="letter-spacing: 0px;"> Molla Yusuf, 25, Hürriyet Cd.</li>
+						<li style="letter-spacing: 0px;">07070 Konyaaltı/Antalya</li>
+					</div>
+					<div class="contactdiv">
+						<h3><strong>FOLLOW US</strong></h3>
+						<li>
+							<a target="_blank" href="https://twitter.com/scorpions7672"><img title="Twitter" alt=""
+									src="images/logo_twitter.png" /></a>
+							<a target="_blank" href="https://www.facebook.com/scorpions7672/"><img title="Facebook" alt=""
+									src="images/logo_facebook.png" /></a>
+							<a target="_blank" href="https://www.instagram.com/scorpions7672/"><img title="Instagram"
+									alt="" src="images/logo_instagram.png" /></a>
+							<a target="_blank" href="https://www.youtube.com/channel/UCLsK3acedtyaD6dABW39g2Q"><img
+									title="Youtube" alt="" src="images/logo_youtube.png" /></a>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="copyright">
+			<li> Copyright © Scorpions Robotics 2020-2021</li>
+		</div>
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+	</section>
+</body>
+
+
+</html>
